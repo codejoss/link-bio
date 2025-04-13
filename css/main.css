@@ -8,7 +8,7 @@
 
 body {
     height: 100dvh;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: 'Krub', sans-serif;
     font-family: 'Roboto Mono', monospace;
     background: url(../img/desktop.jpg) no-repeat center center fixed;
@@ -34,6 +34,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: rem;
 
 }
 
@@ -64,8 +65,8 @@ body {
 }
 
 .presentation {
-    font-size: 1.1rem;
-    padding-top: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
     text-align: justify;
 }
 
@@ -82,22 +83,25 @@ body {
 
 .container-links {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
 }
 
 .container-links li {
-    padding: 0.2rem;
+    padding: 10px;
 }
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 1rem;
+    /* margin: auto 0;
+    padding: auto 0; */
+    /* margin: 2rem 0 0 0;
+    padding: 0.5rem 0 0 0; */
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: center; */
 }
 
 ul>li {
